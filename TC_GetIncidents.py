@@ -30,7 +30,7 @@ driver.find_element_by_id("idSIButton9").click()
 wait = WebDriverWait(driver, 10)
 driver.find_element_by_id("idBtn_Back").click()
 wait = WebDriverWait(driver, 10)
-# Opening chatwindow
+# Opening chat window
 driver.find_element_by_xpath("//*[@id='chat-circle']").click()
 time.sleep(10)
 # Reading from excel
